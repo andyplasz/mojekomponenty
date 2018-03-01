@@ -1,0 +1,23 @@
+.wrapper {
+  min-height: 80vh;
+  position: relative;
+  padding-bottom: 50px; /* Equals height of the footer and pushes away the content in the case they would touch. */
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  background-color: red;
+}
+.wrapper{
+  padding-top:2em;
+  background-color: blue;
+}
+.content{
+  color:white;
+  background-color:green;
+  height:30vh;
+}
